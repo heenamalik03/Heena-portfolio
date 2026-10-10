@@ -1,1 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Heena Malik | Miss Rohtak 2K25</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Karla:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#F6F6F6;--ink:#111111;--pink:#0D0D0D;--sun:#F2B5C4;--card:#FFFFFF;--soft:#5C5C5C;--line:#111111;--onpink:#FFFFFF;--wine:#111111;--focus:#111111;--onwine:#FFFFFF;--askbg:#111111;--askfg:#F6F6F6;--asksub:#C8C8C8;--askline:rgba(255,255,255,.28);
+--disp:"Abril Fatface","Didot",Georgia,serif;--body:"Karla",system-ui,-apple-system,"Segoe UI",sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0B0B0B;--ink:#F5F5F5;--pink:#1C1C1C;--card:#1A1A1A;--soft:#AFAFAF;--line:#F5F5F5;--focus:#F2B5C4;--wine:#F2B5C4;--onwine:#111111;--askbg:#1A1A1A;--askfg:#F5F5F5;--asksub:#AFAFAF;--askline:rgba(255,255,255,.28)}}
+:root[data-theme="dark"]{--bg:#0B0B0B;--ink:#F5F5F5;--pink:#1C1C1C;--card:#1A1A1A;--soft:#AFAFAF;--line:#F5F5F5;--focus:#F2B5C4;--wine:#F2B5C4;--onwine:#111111;--askbg:#1A1A1A;--askfg:#F5F5F5;--asksub:#AFAFAF;--askline:rgba(255,255,255,.28)}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.1rem/1.65 var(--body);overflow-x:hidden}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+.cover :focus-visible,.ask :focus-visible{outline-color:var(--sun)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+h2{font:400 clamp(2.2rem,6vw,3.5rem)/1 var(--disp);margin:0 0 10px}
+.sub{color:var(--soft);margin:0 0 30px;max-width:52ch}
 
+/* cover */
+.cover{background:var(--pink);color:var(--onpink);position:relative;overflow:hidden;padding:44px 0 56px}
+.cover .wrap{display:grid;grid-template-columns:1.25fr 1fr;gap:32px;align-items:end;position:relative}
+.mast{font:700 .95rem var(--body);letter-spacing:.04em;margin:0 0 6px}
+h1{font:400 clamp(4.4rem,17vw,12rem)/.8 var(--disp);margin:0;letter-spacing:-.01em}
+h1 .ln{display:block;overflow:hidden;padding:.06em 0}
+h1 .ln b{display:inline-block;font-weight:400;transform:translateY(110%);animation:rise .9s cubic-bezier(.2,.8,.2,1) forwards}
+h1 .ln:nth-child(2) b{animation-delay:.18s;margin-left:.5em}
+@keyframes rise{to{transform:none}}
+.tag{font-size:1.3rem;max-width:30ch;margin:22px 0 0;line-height:1.4}
+.now{display:inline-block;margin-top:18px;background:var(--sun);color:#111111;padding:8px 16px;border-radius:4px;font-weight:700;font-size:.95rem}
+.lines{list-style:none;margin:0;padding:0;border-left:4px solid var(--sun);padding-left:20px}
+.lines li{margin:0 0 10px}
+.lines a{font:400 1.45rem/1.15 var(--disp);text-decoration:none;display:inline-block;transition:transform .2s}
+.lines a:hover{transform:translateX(8px);text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:5px}
+.lines small{display:block;font:400 .95rem var(--body);opacity:.85}
+.sticker{position:absolute;right:2%;top:-14px;width:128px;height:128px;border-radius:50%;background:var(--sun);color:#111111;display:grid;place-items:center;text-align:center;font:400 1.05rem/1.05 var(--disp);transform:rotate(12deg);box-shadow:0 0 0 4px var(--onpink);transition:transform .4s}
+.sticker:hover{transform:rotate(-8deg) scale(1.06)}
+
+section{padding:72px 0}
+
+/* tabs */
+.tabs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:26px}
+.tabs button{font:700 1rem var(--body);cursor:pointer;color:var(--ink);background:transparent;border:2px solid var(--line);padding:11px 22px;border-radius:999px;transition:background .15s,color .15s}
+.tabs button[aria-selected="true"]{background:var(--ink);color:var(--bg)}
+.tabs button:not([aria-selected="true"]):hover{background:var(--sun);color:#111111;border-color:#111111}
+.panel{display:none;grid-template-columns:1fr 1fr;gap:32px;align-items:start;animation:fade .35s}
+.panel.on{display:grid}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}}
+.panel p{margin:0 0 1em;font-size:1.2rem;max-width:44ch}
+.items{display:grid;gap:12px}
+.item{background:var(--card);border:2px solid var(--line);padding:16px 20px;border-radius:4px 20px 4px 20px}
+.item b{display:block;font:400 1.3rem/1.2 var(--disp)}
+.item span{color:var(--soft);font-size:1rem}
+
+/* ask */
+.ask{background:var(--askbg);color:var(--askfg)}
+.ask .sub{color:var(--asksub)}
+details{border-top:2px solid var(--askline)}
+details:last-of-type{border-bottom:2px solid var(--askline)}
+summary{cursor:pointer;list-style:none;padding:20px 44px 20px 0;font:400 1.5rem/1.2 var(--disp);position:relative}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:6px;top:14px;font:400 2rem var(--body);color:var(--sun);transition:transform .25s}
+details[open] summary::after{transform:rotate(45deg)}
+details[open] summary{color:var(--sun)}
+details p{margin:0 0 22px;max-width:62ch;font-size:1.15rem}
+
+/* contact */
+.hi{font:400 clamp(2.6rem,9vw,6.4rem)/.95 var(--disp);margin:0 0 6px}
+.num{display:inline-block;font:400 clamp(2rem,7vw,4.2rem)/1.1 var(--disp);text-decoration:none;background:var(--sun);color:#111111;padding:6px 20px;border-radius:6px;transform:rotate(-1.5deg);transition:transform .2s}
+.num:hover{transform:rotate(1deg) scale(1.03)}
+.ways{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin-top:34px}
+.way{background:var(--card);border:2px solid var(--line);border-radius:4px 20px 4px 20px;padding:16px 20px;display:flex;flex-direction:column;gap:6px}
+.way small{color:var(--soft)}
+.way a{font-weight:700;word-break:break-word}
+.copy{align-self:flex-start;cursor:pointer;font:700 .9rem var(--body);background:var(--wine);color:var(--onwine);border:0;padding:6px 14px;border-radius:999px}
+footer{padding:26px 22px calc(26px + env(safe-area-inset-bottom,0px));text-align:center;color:var(--soft);font-size:.95rem}
+@media (max-width:780px){.cover .wrap,.panel.on{grid-template-columns:1fr}.sticker{width:96px;height:96px;font-size:.85rem;top:-24px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}h1 .ln b{transform:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="cover">
+  <div class="wrap">
+    <div>
+      <p class="mast">The Heena Malik issue</p>
+      <h1><span class="ln"><b>Heena</b></span><span class="ln"><b>Malik</b></span></h1>
+      <p class="tag">I dance, design, edit and teach. Right now, I'm making sure reels are perfect before they go live.</p>
+      <span class="now">Now: reel editing reviewer at Ritivel AI</span>
+    </div>
+    <ul class="lines">
+      <li><a href="#see">See me as a creator, performer, scientist or teacher</a></li>
+      <li><a href="#ask">Questions you might want to ask me</a><small>Tap to read my answers</small></li>
+      <li><a href="#hello">Call me, write to me, find me</a></li>
+    </ul>
+    <div class="sticker" aria-label="Miss Rohtak 2K25">Miss<br>Rohtak<br>2K25</div>
+  </div>
+</header>
+
+<main>
+<section id="see"><div class="wrap">
+  <h2>Pick a side of me</h2>
+  <p class="sub">I wear a few hats. Choose one and I'll tell you about it.</p>
+  <div class="tabs" role="tablist" aria-label="Sides of Heena">
+    <button role="tab" aria-selected="true" aria-controls="p0" id="t0">Creator</button>
+    <button role="tab" aria-selected="false" aria-controls="p1" id="t1">Performer</button>
+    <button role="tab" aria-selected="false" aria-controls="p2" id="t2">Scientist</button>
+    <button role="tab" aria-selected="false" aria-controls="p3" id="t3">Teacher</button>
+  </div>
+
+  <div class="panel on" id="p0" role="tabpanel" aria-labelledby="t0">
+    <div>
+      <p>Fashion is where I started, and content is where it lives now. I design, I shoot, I edit, and I study what makes a trend work on Instagram.</p>
+      <p>Because I've made reels myself, I know what to look for when I review other people's.</p>
+    </div>
+    <div class="items">
+      <div class="item"><b>Reel editing reviewer, Ritivel AI</b><span>Checking reels for quality and errors before they're published. My current role.</span></div>
+      <div class="item"><b>Videography, Binge Labs</b><span>Shot a video for YouTube as a one-time project.</span></div>
+      <div class="item"><b>Fashion designing</b><span>My creative base.</span></div>
+      <div class="item"><b>Instagram content and trend research</b><span>Video editing included.</span></div>
+    </div>
+  </div>
+
+  <div class="panel" id="p1" role="tabpanel" aria-labelledby="t1" hidden>
+    <div>
+      <p>I'm comfortable in front of an audience. I was crowned Miss Rohtak 2K25, and I'm a state-level dance competition champion.</p>
+      <p>Stage work taught me to stay calm when everyone is watching.</p>
+    </div>
+    <div class="items">
+      <div class="item"><b>Miss Rohtak 2K25</b><span>Titleholder.</span></div>
+      <div class="item"><b>State-level dance champion</b><span>Won the state-level dance competition.</span></div>
+    </div>
+  </div>
+
+  <div class="panel" id="p2" role="tabpanel" aria-labelledby="t2" hidden>
+    <div>
+      <p>Not every pageant winner has also won a science contest. I did, at state level.</p>
+      <p>That curiosity is why I like understanding how and why content works, not just copying what's popular.</p>
+    </div>
+    <div class="items">
+      <div class="item"><b>State-level science contest winner</b><span>Won at state level.</span></div>
+    </div>
+  </div>
+
+  <div class="panel" id="p3" role="tabpanel" aria-labelledby="t3" hidden>
+    <div>
+      <p>I teach Hindi and English. Explaining something clearly to another person is a skill I use every day, including when I give feedback on a reel.</p>
+    </div>
+    <div class="items">
+      <div class="item"><b>Hindi</b><span>Teaching.</span></div>
+      <div class="item"><b>English</b><span>Teaching.</span></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="ask" id="ask"><div class="wrap">
+  <h2>Ask me anything</h2>
+  <p class="sub">The questions people usually have, answered before you have to ask.</p>
+  <details><summary>What do you do at Ritivel AI?</summary><p>I'm a reel editing reviewer. Before a reel is published, I check it for quality and errors, so the audience sees the clean version.</p></details>
+  <details><summary>Can you shoot and edit, not just review?</summary><p>Yes. I shot a video for YouTube with Binge Labs, and video editing is one of my skills. Reviewing is easier for me because I've done the editing myself.</p></details>
+  <details><summary>What have you won?</summary><p>I'm Miss Rohtak 2K25, a state-level dance competition champion and a state-level science contest winner.</p></details>
+  <details><summary>What's your fashion background?</summary><p>I'm a fashion designer. That's the eye I bring to every piece of content: how it looks matters as much as what it says.</p></details>
+  <details><summary>What would you bring to our team?</summary><p>A good eye, an editor's attention to detail, comfort on camera, and the ability to explain my feedback clearly because I teach for a living.</p></details>
+</div></section>
+
+<section id="hello"><div class="wrap">
+  <p class="hi">Say hello.</p>
+  <a class="num" href="tel:+919541750671">9541750671</a>
+  <div class="ways">
+    <div class="way"><small>Email</small><a href="mailto:heenamalik1042@gmail.com">heenamalik1042@gmail.com</a><button class="copy" data-copy="heenamalik1042@gmail.com">Copy email</button></div>
+    <div class="way"><small>LinkedIn</small><a href="https://www.linkedin.com/in/heena-malik-413340431/" target="_blank" rel="noopener">Connect with me</a></div>
+    <div class="way"><small>Instagram</small><a href="https://www.instagram.com/h33namontana/" target="_blank" rel="noopener">@h33namontana</a></div>
+    <div class="way"><small>Phone</small><a href="tel:+919541750671">9541750671</a><button class="copy" data-copy="9541750671">Copy number</button></div>
+  </div>
+</div></section>
+</main>
+<footer>Heena Malik, Rohtak</footer>
+
+<script>
+(function(){
+  var tabs=[].slice.call(document.querySelectorAll('[role=tab]'));
+  function pick(i){tabs.forEach(function(t,j){var on=i===j;t.setAttribute('aria-selected',on);var p=document.getElementById(t.getAttribute('aria-controls'));p.hidden=!on;p.classList.toggle('on',on)});}
+  tabs.forEach(function(t,i){t.addEventListener('click',function(){pick(i)});t.addEventListener('keydown',function(e){var n=e.key==='ArrowRight'?i+1:e.key==='ArrowLeft'?i-1:null;if(n===null)return;n=(n+tabs.length)%tabs.length;pick(n);tabs[n].focus()})});
+  [].forEach.call(document.querySelectorAll('.copy'),function(b){b.addEventListener('click',function(){
+    var v=b.getAttribute('data-copy'),o=b.textContent;
+    function done(m){b.textContent=m;setTimeout(function(){b.textContent=o},1600)}
+    try{navigator.clipboard.writeText(v).then(function(){done('Copied')},function(){done(v)})}catch(e){done(v)}
+  })});
+})();
+</script>
+</body>
+</html>
